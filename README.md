@@ -26,16 +26,6 @@ mvn clean install
 mvn install:install-file -DgroupId=org.csource -DartifactId=fastdfs-client-java -Dversion=${version} -Dpackaging=jar -Dfile=fastdfs-client-java-${version}.jar
 ```
 
-## 在您的maven项目pom.xml中添加依赖
-
-```xml
-<dependency>
-    <groupId>org.csource</groupId>
-    <artifactId>fastdfs-client-java</artifactId>
-    <version>1.27-SNAPSHOT</version>
-</dependency>
-```
-
 ## .conf 配置文件、所在目录、加载优先顺序
 
     配置文件名fdfs_client.conf(或使用其它文件名xxx_yyy.conf)
