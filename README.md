@@ -3,6 +3,12 @@
 
 FastDFS Java Client API may be copied only under the terms of the BSD license.
 
+## 环境依赖
+
+* JDK >= 1.6
+
+## maven 中央库
+
 ## 使用ant从源码构建
 
 ```
