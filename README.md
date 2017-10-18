@@ -9,6 +9,15 @@ FastDFS Java Client API may be copied only under the terms of the BSD license.
 
 ## maven 中央库
 
+```
+<!-- https://mvnrepository.com/artifact/net.arccode/fastdfs-client-java -->
+<dependency>
+    <groupId>net.arccode</groupId>
+    <artifactId>fastdfs-client-java</artifactId>
+    <version>1.27.0</version>
+</dependency>
+```
+
 ## 使用ant从源码构建
 
 ```
